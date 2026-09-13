@@ -36,7 +36,7 @@ export default function App() {
             try {
                 setIsLoading(true);
 
-                const response = await fetch('/src/data/technologies.json');
+                const response = await fetch('/technologies.json');
                 const data = await response.json();
                 // return data;
 
